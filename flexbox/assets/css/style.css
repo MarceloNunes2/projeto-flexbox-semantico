@@ -1,3 +1,9 @@
+:root{
+    --cor1:#B9EFF7;
+    --cor2:#ABD6D3;
+    --cor3: #BFF5CB;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -6,12 +12,14 @@ header{
     display: flex;
     justify-content: center;
     height: 120px;
+    
 }
 .container{
     justify-content: space-between;
     display: flex;
     width: 990px;
-    background-color: blue;
+    background:linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3))
+    
 }
 .logo{
     
@@ -20,5 +28,39 @@ header{
 
 }
 .menu{
+    
+    display: flex;
+    align-items: center;
 
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border: solid rgb(51, 44, 34);
+    margin: 2px;
+}
+nav .active a,
+nav a:hover
+{
+    color: aliceblue;
+    background-color: #39AAE1;
+}
+#banner{
+    background-image: url(../imagens/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
 }
