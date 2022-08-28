@@ -189,24 +189,22 @@ nav a:hover
     margin-top: 2px;
 }
 .retangulos div{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-color: #557ad3;
-    margin:15px;
-    font-size: 25px;
-    padding: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 6px;
+    margin:10px;
+    font-size: 20px;
+    padding: 11px;
+    margin-bottom: 5px;
 }
 .retangulos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 330px;
-    height: 550px;
-    margin-top: 10px;
+    width: 300px;
+    height: 500px;
+    margin-top: 5px;
 }
 .telefone{
     display: flex;
@@ -216,4 +214,60 @@ nav a:hover
     width: 25px;
     height: 15px;
     border: 2px solid black;
+}
+aside{
+    border: 3px solid;
+    height: 950px;
+    margin-top: 3px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+
+}
+article a{
+    text-decoration: none;
+}
+
+article .datas{
+    display: flex;
+}
+article .postagens{
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 3px;
+    border-radius: 20px 25px 50px 0;
+}
+article .comentarios{
+    background-color: #39aae1;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 20px 25px 50px 0;
+}
+article .img-princ{
+    margin-top: 30px;
+}
+article .img-princ img{
+    width: 100%;
+    height: auto;
+}
+article .novo-titulo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 24px;
+}
+article .noticias{
+    font-size: 14px;
+    color: rgb(65, 65, 65);
+    line-height: 20px;
+    margin-bottom: 30px;
 }
