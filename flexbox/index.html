@@ -7,6 +7,17 @@
 <meta name="viewport" content="width=device-width, initial-scaleble=0">
 <link rel="shortcut icon" href="assets/imagens/favicon.jpeg" type="image/x-icon">
 <link rel="stylesheet" href="assets/css/style.css">
+<script type="text/javascript">
+window.onload = function(){
+    document.querySelector(".menu-mobile").addEventListener("click",function(){
+        if(document.querySelector(".menu nav ul").style.display =='flex'){
+            document.querySelector(".menu nav ul").style.display ='none';
+        }else{
+            document.querySelector(".menu nav ul").style.display ='flex';
+        }
+    });
+};
+</script>
 <title>Projeot-Flex-Box</title>
 </head>
 
@@ -18,12 +29,18 @@
     </div>
     <div class="menu">
         <nav>
+            <div class="menu-mobile">
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+            </div>
             <ul>
                 <li class="active"><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Deparments</a></li>
+                <li><a href="">TimeTable</a></li>
             </ul>
         </nav>
     </div>
@@ -229,11 +246,20 @@
 <footer>
     <div class="container flexcoluna">
         <div class="menufooter">
-            <div class="fm1">;;;
+            <div class="fm1 "><strong>Health Insurance</strong>
+                <div class="footer-caixa">
+                Here in medicenter we have individual <span>&#8594;</span>
+                </div>
             </div>
-            <div class="fm2" >;;;
+            <div class="fm2" >Medical Records
+                <div class="footer-caixa">
+                    Here in medicenter we have individual <span>&#8594;</span>
+                    </div>
             </div>
-            <div class="fm3">;;;
+            <div class="fm3">Online Bill Pay
+                <div class="footer-caixa">
+                    Here in medicenter we have individual <span>&#8594;</span>
+                    </div>
             </div>
         </div>
         <div class="footer-area">
@@ -242,15 +268,84 @@
                     <div class="widget-titulo">
                         <div class="widget-titulo-texto">Medicenter Clinic</div>
                         <div class="widget-bara"></div>
+                       
                     </div>
                     <div class="widget_corpo">
+                        <div>
+                            <p class="descricao-MdC-footer">Marius adipisicing marius fringila turpis interdum  <br> sed pulvinar nisi malesuada individual </p>
+                        </div>
+                        <div class="descricao-MdC-footer">
+                            <div class="informacoes">
+                                <p>Medical clinic</p>
+                                <p>33 Farlane Street &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +123 655 655</p>
+                                <p>33 Keilor East &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; +123 650 658</p>
+                                <p>Vic 3033, Australiz &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  medicenter@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="logo-rada">
+                            <a href="#"><img src="assets/imagens/twitter.png" alt="logo-twiter" class="imagens-rodape"></a>
+                            <a href="#"><img src="assets/imagens/face.png" alt="face"></a>
+                            <a href="#"><img src="assets/imagens/agenda.png" alt="agenda"></a>
+                            <a href="#"><img src="assets/imagens/mail.png" alt="e-mail"></a>
+                        </div>
                     </div>
+                </div>
             </div>
-            <div class="areaf"></div>
-            <div class="areaf"></div>
-        </div>
-    </div>
+            <div class="areaf">
+                <div class="widget">
+                    <div class="widget-titulo"> 
+                        <div class="widget-titulo-texto">Latest Posts</div>
+                        <div class="widget-bara"></div>
+                        </div>
+                    </div>
+                    <div class="widget_corpo">
+                        <div>
+                            <p class="descricao-MdC-footer">&#8594; Marius adipisicing mauris fringila turpis interdum pulvinar nisi malesuada <br>
+                            <p class="color-tab2">9 months ago</p>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="descricao-MdC-footer">&#8594; Lorem ipsun dolor sit amat velum <br>
+                            <p class="color-tab2">10 months ago</p>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="descricao-MdC-footer">&#8594; Marius adipisicing mauris fringila turpis interdum pulvinar nisi malesuada <br>
+                            <p class="color-tab2">9 about a year ago</p>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="areaf">
+                <div class="widget">
+                    <div class="widget-titulo">
+                        <div class="widget-titulo-texto">Latest Tweets</div>
+                        <div class="widget-bara"></div>
 
+                    </div>
+                    <div class="widget_corpo">
+                        <div>
+                            <p class="descricao-MdC-footer">&#8594; &#169; Chabodmathieu OK, good I'm Glad to hear that! Have a nice day <br>
+                            <p class="color-tab2">11 months ago</p>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="descricao-MdC-footer">&#8594;  &#169;Chabodmathieu Support for all our itens is conducted through our Support Forum - <a  class="link-footer" href="https://t.co/1lntTsxJ" target="_blank">https://t.co/1lntTsxJ</a> Please use the forum to get help thx<br>
+                            <p class="color-tab2">11 months ago</p>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="descricao-MdC-footer">&#8594; A huge thanks to all who and work to all of our buyers. Our Gym WordPress theme <a class="link-footer" href="https://https://t.co/szgTwgVU">https://https://t.co/szgTwgVU</a> just reached 1000 sales!<br>
+                            <p class="color-tab2">22 about a year ago</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            &#169; Coyright - Medicenter Template by QuanticalLabs
+        </div>
 </footer>
 </body>
 

@@ -216,9 +216,9 @@ nav a:hover
     border: 2px solid black;
 }
 aside{
-    border: 3px solid;
-    height: 950px;
+    
     margin-top: 3px;
+    margin-bottom: 3px;
 }
 .flex{
     display: flex;
@@ -287,10 +287,21 @@ footer{
 }
 .fm1{
     background-color: #39aae1;
+    font-size: 21px;
+   
+}
+.footer-caixa{
+    margin-top: 15px;
+    font-size: 14px;
+    margin-right: 4px;
     
+}
+span{
+    margin-left: 3px;
 }
 .fm2{
     background-color: #0079c7;
+    font-size: 21px;
 }
 .fm3{
     background-color: #2b4c99;
@@ -307,4 +318,112 @@ footer{
 }
 footer .widget-titulo-texto{
     color: #fff;
+}
+.copy{
+    border-top: 1px solid #b6b4b4;
+    color: wheat;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.descricao-MdC-footer{
+   margin-top: 30px;
+   font-size: 14px;
+   color: rgb(134, 133, 133);
+}
+.imagens-rodape{
+    
+    margin-top: 10px;
+    height: 35px;
+}
+.descricao2{
+    margin-top: 20px;
+    font-size: 14px;
+    padding-left: 3pxpx;
+}
+.color-tab2{
+    color: #3ba0e4;
+    font-size: 11px;
+    margin-top: -5px
+}
+.link-footer{
+    text-decoration: none;
+    color: #ABD6D3;
+    font-weight: bold;
+}
+.menu-mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: #0079c7;
+}
+@media (max-width:868px){
+    .banner-headline h1{
+        font-size:53px;
+        padding: 10px;
+    }
+    .banner-headline h2{
+        font-size: 16px;
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+    .banner-option{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+
+    }
+    #geral section{
+        padding: 60px;
+    }
+    #geral aside{
+        padding: 30px;
+    }
+    section{
+        padding-bottom: 60px;
+        
+    }
+    .menufooter{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-area{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .copy{
+        padding-left: 20px;
+    }
+   header .container{
+    flex-direction: row;
+   }
+   nav ul{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+   }
+   header{
+    height: auto;
+   }
+   .logo{
+    padding-left: 20px;
+   }
+   .menu-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
 }
